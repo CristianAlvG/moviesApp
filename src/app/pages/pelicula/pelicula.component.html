@@ -1,0 +1,53 @@
+
+<div class="row animate__animated animate__fadeIn" *ngIf="peliculas">
+    <div class="col md-6">
+        <!--Imagen-->
+        <img [src]="peliculas.poster_path| poster" 
+             [alt]="peliculas.title"
+             class="img-thumbnail">
+    </div>
+
+    <div class="col md-6">
+        <!--Detalle-->
+        <h3>{{peliculas.title}}</h3>
+        <div class="row">
+            <div class="col">
+                <star-rating [stars]="peliculas.vote_average/2"></star-rating>
+            </div>
+            <div class="col text-white">
+                {{peliculas.vote_average | number:'1.1-1'}}
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col text-white">
+                {{peliculas.overview}}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button (click)="onRegresar()" class="btn btn-outline-info mt-5">
+                    Back
+                </button>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="row mt-5 mb-5" *ngIf="cast.length > 0">
+        <div class="col">
+            <app-cast-slideshow [cast]="cast"></app-cast-slideshow>
+        </div>
+    </div>
+
+    
+
+    
+        
+
+
+    
+    
+</div>

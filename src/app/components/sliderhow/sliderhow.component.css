@@ -1,0 +1,42 @@
+.swiper{
+    height: 400px;
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color:white;
+}
+
+.swiper-slide-active {
+    width: 100% !important;
+}
+
+.swiper-slide{
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("https://image.tmdb.org/t/p/w500/j3Z3XktmWB1VhsS8iXNcrR86PXi.jpg")
+}
+
+.img-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://image.tmdb.org/t/p/w500/wODqakS0jinTUECNS6n4VomQbew.jpg")
+}
+
+.img-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://image.tmdb.org/t/p/w500/tpiqEVTLRz2Mq7eLq5DT8jSrp71.jpg")
+}
+
+.text-container{
+    bottom: 0;
+    padding: 5px 30px;
+    position: absolute;
+    width: 100%;
+
+}
+
+

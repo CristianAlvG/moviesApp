@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color: #14161E !important;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 200 !important;
+    color:white !important;
+}
+
+p{
+    color:white !important;
+}
+
+hr{
+    color:white !important;
+}
+
+.navbar-brand{
+    font-weight: 200 !important;
+    color: #bd4c5f !important;
+}
+
+.btn-outline-success{
+    border-color: #bd4c5f !important ;
+    color: #bd4c5f !important ;
+}
+
+.btn-outline-success:hover{
+    border-color: #272a36;
+    color: white !important ;
+}
+
+.block{
+    display:block;
+}
