@@ -9,6 +9,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app.routing.module';
 import { PipesModule } from './pipes/pipes.module';
 
+
+
 @NgModule({
   declarations: [
     AppComponent

@@ -42,4 +42,5 @@ export class BuscarComponent implements OnInit{
     this.location.back();
   }
 
+
 }
